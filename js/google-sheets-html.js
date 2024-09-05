@@ -118,7 +118,7 @@ function rowsCount(item){
      $('#conDiv').append('<div class="LeaderStrip"><div class="position">'+(counter)+'</div><div><a href="http://www.kktv1.com/m/?roomid='+id+'"><img src="../common/img/kk_head_avatar_men.png" id="u_img_'+id+'" alt="" class="imgClass" /></a></div><div class="lastDiv"><span class="dancing">'+times+'</span></div><div class="centerDiv"><img src="img/coin.png" class="imgsmal" />'+name+'</div></div>');
 
   }
-else  if(counter>=20  &&  counter<26){
+else  if(counter>=5  &&  counter<12){
 
 
   
