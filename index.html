@@ -1,0 +1,2265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ganesh Chaturti Festival 2k23</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <script src="js/ymvLy311lKo9rq8ZPQyKSChf75k.js"></script>
+  <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+  <script type="text/javascript" src="js/google-sheets-html.js"></script>
+</head>
+
+<body id="overlay">
+  <div class="header">
+    <img src="img/header.png" alt="" />
+  </div>
+  <div class="guide-btn">
+    <button id="guide" onclick="openGuide()"><img src="img/Guide Button.png" alt=""></button>
+  </div>
+  <!--  -->
+  <div class="modal" id="modal" style="display: none;">
+    <div class="guide-text">
+      <img src="img/htpHeading.png" alt="">
+    </div>
+
+    <div class="guide-modal" id="guide-modal">
+      <div class="rules">
+        <div class="guide-content">
+          <div class="guidecol-1"><img src="img/Modak.png" class="modak" alt=""></div>
+          <div class="guidecol-2">Top 30 Talents have to register their ids with SK employees to participate in this
+            event.</div>
+        </div>
+
+        <div class="guide-content">
+          <div class="guidecol-1"><img src="img/Modak.png" class="modak" alt=""></div>
+          <div class="guidecol-2">PK Battle will be held on this Ganesh Chaturthi Festival season.</div>
+        </div>
+
+        <!-- <div class="guide-content">
+          <div class="guidecol-1"><img src="img/Modak.png" class="modak" alt=""></div>
+          <div class="guidecol-2">Talents need to wear Traditional outfit for the pk battle</div>
+        </div> -->
+
+        <div class="guide-content">
+          <div class="guidecol-1"><img src="img/Modak.png" class="modak" alt=""></div>
+          <div class="guidecol-2">There will be 15 min Official Pk match will be scheduled, 
+            and talent must perform for 5-6 min each.</div>
+        </div>
+
+        <div class="guide-content">
+          <div class="guidecol-1"><img src="img/Modak.png" class="modak" alt=""></div>
+          <div class="guidecol-2">Top 18 talent (06 Talents from each category) that earns maximum beans will be qualified for the 2nd round i.e Final.
+          </div>
+        </div>
+
+        <div class="guide-content">
+          <div class="guidecol-1"><img src="img/Modak.png" class="modak" alt=""></div>
+          <div class="guidecol-2">Talents will be ranked on the leader board according to the number of gems they receive in each round.</div>
+        </div>
+
+        <div class="guide-content">
+          <div class="guidecol-1"><img src="img/Modak.png" class="modak" alt=""></div>
+          <div class="guidecol-2">Users will be ranked according to their spending on each round of the tournament.
+          </div>
+        </div>
+
+        <div class="guide-content">
+          <div class="guidecol-1"><img src="img/Modak.png" class="modak" alt=""></div>
+          <div class="guidecol-2">The winner of this tournament will be decided based on the gems they receive in the Final Round.</div>
+        </div>
+
+        <div class="guide-content">
+          <div class="guidecol-1"><img src="img/Modak.png" class="modak" alt=""></div>
+          <div class="guidecol-2">The maximum spender from each category will be the winner of the tournament.</div>
+        </div>
+
+
+        <br>
+        <hr>
+        <br>
+        <div class="reward-title">Talent Rewards:</div>
+        <div class="guidecol-2">Following rewards will be distributed as per beans are receiving according to given
+          criteria in both rounds of the event for the top 2 talents.</div>
+        <table id="game-reward-table">
+          <tbody>
+            <tr>
+              <th>Rank</th>
+              <th>Criteria</th>
+              <th>Rewards</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>4 Million & Above</td>
+              <td>Rs 1500 Amazon E gift card Voucher</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>3 Million & Above</td>
+              <td>Rs 1000 Amazon E gift card Voucher</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+
+        <div class="guidecol-2">If more than two talent meets the criteria, the top-earning talent will receive the
+          vouchers.</div>
+
+
+        <!-- <div class="Talent_rewards">
+                <p><h1>Talent Rewards</h1></p>
+                <ul style="list-style-type: disc;">
+                    <li>The following rewards and vouchers distributed to the talents as per the criteria:</li>
+                </ul>
+                <table class="guideTable">
+                    <tr class="guideTable_tr">
+                        <th class="guideTable_th modalTh">Criteria</th>
+                        <th class="guideTable_th modalTh">Rewards</th>
+                    </tr>
+                    <tr class="guideTable_tr">
+                        <td class="guideTable_td">Top Talent who receives 3 million or more beans in both rounds of the event </td>
+                        <td class="guideTable_td">Rs 1500 as AMAZON E gift cards. </td>
+                    </tr>
+                    <tr class="guideTable_tr">
+                        <td class="guideTable_td">Top Gifter and Top winner Talent of Round 2 </td>
+                        <td class="guideTable_td">Agency name will be featured in the Banner for 3 days + mentioned in instagram from Sk official A/C. </td>
+                    </tr>
+                    <tr class="guideTable_tr">
+                        <td class="guideTable_td">Top 5 Talents and Users from round 2</td>
+                        <td class="guideTable_td">Mentioned on the web page</td>
+                    </tr>
+                   
+                </table>
+            </div> -->
+      </div>
+    </div>
+
+    <div class="close" onclick="closeGuide()">
+      <button id="close"><img src="img/close-btn.png" alt=""></button>
+    </div>
+
+  </div>
+
+  <div class="coltwo">
+    <div class="tab">
+      <button onclick="openTab('userRewards','user','talent')">
+        <img src="img/UserButtonSelect.png" alt="" id="user" />
+      </button>
+    </div>
+    <div class="tab">
+      <button onclick="openTab('talentRewards','talent','user')">
+        <img src="img/TalentButtonDeselect.png" alt="" id="talent" />
+      </button>
+    </div>
+  </div>
+  <div class="rewards" id="userRewards" style="display: none">
+    <!-- <div class="coltwo1">
+        <div class="tab1">
+          <button onclick="openTab2('userRewardRound1','round1','round2')">
+            <img src="img/Round1ButtonSelect.png" alt="" id="round1"/>
+          </button>
+        </div>
+        <div class="tab1">
+          <button onclick="openTab2('userRewardRound2','round2','round1')">
+            <img src="img/Round2ButtonDeselect.png" alt="" id="round2"/>
+          </button>
+        </div>
+      </div> -->
+    <div class="userRewardRound1" id="userRewardRound1">
+      <div class="eventTitle">
+        <img src="img/eventRewardTitle.png" alt="" />
+      </div>
+      <div class="mySlide">
+        <div class="rank">
+          <img src="img/1st-rank.png" alt="" />
+        </div>
+        <div class="colone">
+          <div class="frame">
+            <img src="img/one.png" alt="" />
+          </div>
+        </div>
+        <div class="eventText">
+          <p>Top 1 User receives 25% of total beans pot</p>
+        </div>
+      </div>
+      <div class="mySlide" style="display: none">
+        <div class="rank">
+          <img src="img/2nd-rank.png" alt="" />
+        </div>
+        <div class="colone">
+          <div class="frame">
+            <img src="img/one.png" alt="" />
+          </div>
+        </div>
+        <div class="eventText">
+          <p>Top 2 User receives 20% of total beans pot</p>
+        </div>
+      </div>
+      <div class="mySlide" style="display: none">
+        <div class="rank">
+          <img src="img/3rd-rank.png" alt="" />
+        </div>
+        <div class="colone">
+          <div class="frame">
+            <img src="img/one.png" alt="" />
+          </div>
+        </div>
+        <div class="eventText">
+          <p>Top 3 User receives 15% of total beans pot</p>
+        </div>
+      </div>
+      <div class="mySlide" style="display: none">
+        <div class="rank">
+          <img src="img/4th-ank.png" alt="" />
+        </div>
+        <div class="colone">
+          <div class="frame">
+            <img src="img/one.png" alt="" />
+          </div>
+        </div>
+        <div class="eventText">
+          <p>Top 4 User receives 10% of total beans pot</p>
+        </div>
+      </div>
+      <div class="mySlide" style="display: none">
+        <div class="rank">
+          <img src="img/5th-rank.png" alt="" />
+        </div>
+        <div class="colone">
+          <div class="frame">
+            <img src="img/one.png" alt="" />
+          </div>
+        </div>
+        <div class="eventText">
+          <p>Top 5th-10th User receives 5% of total beans pot</p>
+        </div>
+      </div>
+      <div class="arrow">
+        <button class="arrowImg" onclick="show3(-1)">
+          <img src="img/left.png" alt="" />
+        </button>
+        <button class="arrowImg" onclick="show3(1)">
+          <img src="img/right.png" alt="" />
+        </button>
+      </div>
+    </div>
+    <!-- <div class="userRewardRound1" id="userRewardRound2" style="display: none">
+        <div class="eventTitle">
+          <img src="img/eventRewardTitle.png" alt="" />
+        </div>
+        <div class="mySlide1">
+          <div class="coltwo">
+            <div class="frame">
+              <img src="img/Reward-Audio-Theme.png" alt="" />
+            </div>
+            <div class="frame">
+              <img src="img/furyProfileFrame.png" alt="" />
+            </div>
+          </div>
+          <div class="eventText">
+            <p>10 Days Celebration Audio Room Theme + Fury Profile Frame</p>
+          </div>
+        </div>
+      </div> -->
+    <!-- <div class="coltwo1" style="display: none;">
+        <div class="tab1">
+          <button onclick="openTab4('userScheduleRound1','round13','round23')">
+            <img src="img/Round1ButtonSelect.png" alt="" id="round13" />
+          </button>
+        </div>
+        <div class="tab1">
+          <button onclick="openTab4('userScheduleRound2','round23','round13')">
+            <img src="img/Round2ButtonDeselect.png" alt="" id="round23" />
+          </button>
+        </div>
+      </div>
+      <div class="userScheduleRound1" id="userScheduleRound1">
+        <div class="eventTitle1">
+          <img src="img/scheduleTitle.png" alt="" />
+        </div>
+        <div class="schedule">
+          <div class="scheduleTable">
+            <table>
+              <tr class="r1">
+                <th>Date</th>
+                <th>Player1</th>
+                <th><img src="img/Vs-min.png" alt="" /></th>
+                <th>Player2</th>
+                <th>Time</th>
+              </tr>
+              <tr class="pos">
+                <td>19-09-2023</td>
+                <td>
+                  🥂🅷🅾🅽🅴🆈🥂<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=586825384"
+                    >586825384</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Queen srijal<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=610616457"
+                    >610616457</a
+                  >
+                </td>
+                <td>19:30-19:45 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  Dinky<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=594828336"
+                    >594828336</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Niyati<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=627078337"
+                    >627078337</a
+                  >
+                </td>
+                <td>19:45-20:00 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  𒈞 ᗷяᎥŞƬᎥ 𒈞<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=580626565"
+                    >580626565</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Aashika🥀<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=615536198"
+                    >615536198</a
+                  >
+                </td>
+                <td>20:00-20:15 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  ❤RAI❤<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=623397140"
+                    >623397140</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  戀😡 bul bul🤜戀<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=605118147"
+                    >605118147</a
+                  >
+                </td>
+                <td>20:15-20:30 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  Monika<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=584260474"
+                    >584260474</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  ❤KASHIKA❤<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=591255054"
+                    >591255054</a
+                  >
+                </td>
+                <td>20:30-20:45 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  😈𒈞✦ᴠɪʀᴀ🅝ɢɪɴɪ✦𒈞😈<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=588686171"
+                    >588686171</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Malaika 🤩🤩<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=614050029"
+                    >614050029</a
+                  >
+                </td>
+                <td>20:45-21:00 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  Boss Lady<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=622736387"
+                    >622736387</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  crazy girl<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=574918943"
+                    >574918943</a
+                  >
+                </td>
+                <td>21:00-21:15 IST</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div
+        class="userScheduleRound1"
+        id="userScheduleRound2"
+        style="display: none"
+      >
+        <div class="eventTitle1">
+          <img src="img/scheduleTitle.png" alt="" />
+        </div>
+        <div class="schedule">
+          <div class="scheduleTable">
+            <table>
+              <tr class="r1">
+                <th>Date</th>
+                <th>Player1</th>
+                <th><img src="img/Vs-min.png" alt="" /></th>
+                <th>Player2</th>
+                <th>Time</th>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  🥂🅷🅾🅽🅴🆈🥂<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=586825384"
+                    >586825384</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Queen srijal<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=610616457"
+                    >610616457</a
+                  >
+                </td>
+                <td>19:30-19:45 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  Dinky<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=594828336"
+                    >594828336</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Niyati<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=627078337"
+                    >627078337</a
+                  >
+                </td>
+                <td>19:45-20:00 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  𒈞 ᗷяᎥŞƬᎥ 𒈞<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=580626565"
+                    >580626565</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Aashika🥀<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=615536198"
+                    >615536198</a
+                  >
+                </td>
+                <td>20:00-20:15 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  ❤RAI❤<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=623397140"
+                    >623397140</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  戀😡 bul bul🤜戀<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=605118147"
+                    >605118147</a
+                  >
+                </td>
+                <td>20:15-20:30 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  Monika<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=584260474"
+                    >584260474</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  ❤KASHIKA❤<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=591255054"
+                    >591255054</a
+                  >
+                </td>
+                <td>20:30-20:45 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  😈𒈞✦ᴠɪʀᴀ🅝ɢɪɴɪ✦𒈞😈<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=588686171"
+                    >588686171</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Malaika 🤩🤩<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=614050029"
+                    >614050029</a
+                  >
+                </td>
+                <td>20:45-21:00 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  Boss Lady<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=622736387"
+                    >622736387</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  crazy girl<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=574918943"
+                    >574918943</a
+                  >
+                </td>
+                <td>21:00-21:15 IST</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div> -->
+  </div>
+  <div class="rewards" id="talentRewards">
+    <div class="coltwo1">
+      <div class="tab1">
+        <button onclick="openTab3('talentRewardRound1','round12','round22')">
+          <img src="img/Round1ButtonSelect.png" alt="" id="round12" />
+        </button>
+      </div>
+      <div class="tab1">
+        <button onclick="openTab3('talentRewardRound2','round22','round12')">
+          <img src="img/Round2ButtonDeselect.png" alt="" id="round22" />
+        </button>
+      </div>
+    </div>
+    <div class="userRewardRound1 talentRound" id="talentRewardRound1">
+      <div class="eventTitle">
+        <img src="img/eventRewardTitle.png" alt="" />
+      </div>
+      <div class="mySlide2">
+        <div class="eventText1">
+          <p>Target:05 Million & Above Gems</p>
+        </div>
+        <div class="coltwo">
+          <div class="frame">
+            <img src="img/Reward-Audio-Theme.png" alt="" />
+          </div>
+          <div class="frame">
+            <img src="img/furyProfileFrame.png" alt="" />
+          </div>
+        </div>
+        <div class="eventText">
+          <p>10 Days Celebration Audio Room Theme + Fury Profile Frame</p>
+        </div>
+      </div>
+      <div class="mySlide2" style="display: none">
+        <div class="eventText1">
+          <p>Target:03-05 Million Gems</p>
+        </div>
+        <div class="coltwo">
+          <div class="frame">
+            <img src="img/Reward-Audio-Theme.png" alt="" />
+          </div>
+          <div class="frame">
+            <img src="img/furyProfileFrame.png" alt="" />
+          </div>
+        </div>
+        <div class="eventText">
+          <p>5 Days Celebration Audio Room theme + Fury Profile Frame</p>
+        </div>
+      </div>
+      <div class="mySlide2" style="display: none">
+        <div class="eventText1">
+          <p>Target:01-03 Million Gems</p>
+        </div>
+        <div class="colone">
+          <div class="frame">
+            <img src="img/Reward-Audio-Theme.png" alt="" />
+          </div>
+          <!-- <div class="frame">
+              <img src="img/furyProfileFrame.png" alt="" />
+            </div> -->
+        </div>
+        <div class="eventText">
+          <p>3 Days Celebration Audio Room theme</p>
+        </div>
+      </div>
+      <div class="mySlide2" style="display: none;">
+        <div class="eventText1">
+          <p>Target:500K–1 Million Gems</p>
+        </div>
+        <div class="colone">
+          <div class="frame">
+            <img src="img/Reward-Audio-Theme.png" alt="" />
+          </div>
+          <!-- <div class="frame">
+              <img src="img/furyProfileFrame.png" alt="" />
+            </div> -->
+        </div>
+        <div class="eventText">
+          <p>1 Day Celebration Audio Room theme</p>
+        </div>
+      </div>
+      <div class="arrow">
+        <button class="arrowImg" onclick="show1(-1)">
+          <img src="img/left.png" alt="" />
+        </button>
+        <button class="arrowImg" onclick="show1(1)">
+          <img src="img/right.png" alt="" />
+        </button>
+      </div>
+    </div>
+    <div class="userRewardRound1 talentRound" id="talentRewardRound2" style="display: none">
+      <div class="eventTitle">
+        <img src="img/eventRewardTitle.png" alt="" />
+      </div>
+      <div class="mySlide4">
+        <div class="eventText1">
+          <p>Target:10 Million & Above Gems target</p>
+        </div>
+        <div class="col-three">
+          <div class="frame">
+            <img src="img/Star-Badge.png" alt="" />
+          </div>
+          <div class="frame">
+            <img src="img/Reward-Audio-Theme.png" alt="" />
+          </div>
+          <div class="frame">
+            <img src="img/Reward-Superstar-profile-frame.png" alt="" />
+          </div>
+        </div>
+        <div class="eventText">
+          <p>
+            15 days PK STAR BADGE + Audio theme of PK combat + PK SUperStar
+            Profile Frame
+          </p>
+        </div>
+      </div>
+      <div class="mySlide4" style="display: none">
+        <div class="eventText1">
+          <p>Target:05- 10 Million Gems target</p>
+        </div>
+        <div class="coltwo">
+          <div class="frame">
+            <img src="img/Reward-Audio-Theme.png" alt="" />
+          </div>
+          <div class="frame">
+            <img src="img/Reward-Superstar-profile-frame.png" alt="" />
+          </div>
+        </div>
+        <div class="eventText">
+          <p>10 days Audio theme of PK combat + PK SUperStar Profile Frame</p>
+        </div>
+      </div>
+      <div class="mySlide4" style="display: none">
+        <div class="eventText1">
+          <p>Target:03- 05 Million Gems target</p>
+        </div>
+        <div class="colone">
+          <div class="frame">
+            <img src="img/Reward-Audio-Theme.png" alt="" />
+          </div>
+          <!-- <div class="frame">
+              <img src="img/furyProfileFrame.png" alt="" />
+            </div> -->
+        </div>
+        <div class="eventText">
+          <p>07 days Audio theme of PK combat</p>
+        </div>
+      </div>
+      <div class="mySlide4" style="display: none">
+        <div class="eventText1">
+          <p>Target:01- 03 Million Gems target</p>
+        </div>
+        <div class="colone">
+          <div class="frame">
+            <img src="img/Reward-Audio-Theme.png" alt="" />
+          </div>
+          <!-- <div class="frame">
+              <img src="img/furyProfileFrame.png" alt="" />
+            </div> -->
+        </div>
+        <div class="eventText">
+          <p>5 days Audio theme of PK combat</p>
+        </div>
+      </div>
+      <div class="arrow">
+        <button class="arrowImg" onclick="show2(-1)">
+          <img src="img/left.png" alt="" />
+        </button>
+        <button class="arrowImg" onclick="show2(1)">
+          <img src="img/right.png" alt="" />
+        </button>
+      </div>
+    </div>
+    <!-- <div class="coltwo1">
+        <div class="tab1">
+          <button
+            onclick="openTab5('talentScheduleRound1','round14','round24')"
+           >
+            <img src="img/Round1ButtonSelect.png" alt="" id="round14" />
+          </button>
+        </div>
+        <div class="tab1">
+          <button
+            onclick="openTab5('talentScheduleRound2','round24','round14')"
+          >
+            <img src="img/Round2ButtonDeselect.png" alt="" id="round24" />
+          </button>
+        </div>
+      </div>
+      <div class="userScheduleRound1 talentSchedule" id="talentScheduleRound1">
+        <div class="eventTitle1">
+          <img src="img/scheduleTitle.png" alt="" />
+        </div>
+        <div class="schedule">
+          <div class="scheduleTable">
+            <table>
+              <tr class="r1">
+                <th>Date</th>
+                <th>Player1</th>
+                <th><img src="img/Vs-min.png" alt="" /></th>
+                <th>Player2</th>
+                <th>Time</th>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  🥂🅷🅾🅽🅴🆈🥂<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=586825384"
+                    >586825384</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Queen srijal<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=610616457"
+                    >610616457</a
+                  >
+                </td>
+                <td>19:30-19:45 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  Dinky<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=594828336"
+                    >594828336</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Niyati<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=627078337"
+                    >627078337</a
+                  >
+                </td>
+                <td>19:45-20:00 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  𒈞 ᗷяᎥŞƬᎥ 𒈞<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=580626565"
+                    >580626565</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Aashika🥀<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=615536198"
+                    >615536198</a
+                  >
+                </td>
+                <td>20:00-20:15 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  ❤RAI❤<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=623397140"
+                    >623397140</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  戀😡 bul bul🤜戀<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=605118147"
+                    >605118147</a
+                  >
+                </td>
+                <td>20:15-20:30 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  Monika<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=584260474"
+                    >584260474</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  ❤KASHIKA❤<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=591255054"
+                    >591255054</a
+                  >
+                </td>
+                <td>20:30-20:45 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  😈𒈞✦ᴠɪʀᴀ🅝ɢɪɴɪ✦𒈞😈<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=588686171"
+                    >588686171</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Malaika 🤩🤩<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=614050029"
+                    >614050029</a
+                  >
+                </td>
+                <td>20:45-21:00 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  Boss Lady<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=622736387"
+                    >622736387</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  crazy girl<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=574918943"
+                    >574918943</a
+                  >
+                </td>
+                <td>21:00-21:15 IST</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="userScheduleRound1 talentSchedule" id="talentScheduleRound2"  style="display: none">
+        <div class="eventTitle1">
+          <img src="img/scheduleTitle.png" alt="" />
+        </div>
+        <div class="schedule">
+          <div class="scheduleTable">
+            <table>
+              <tr class="r1">
+                <th>Date</th>
+                <th>Player1</th>
+                <th><img src="img/Vs-min.png" alt="" /></th>
+                <th>Player2</th>
+                <th>Time</th>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  🥂🅷🅾🅽🅴🆈🥂<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=586825384"
+                    >586825384</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Queen srijal<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=610616457"
+                    >610616457</a
+                  >
+                </td>
+                <td>19:30-19:45 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  Dinky<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=594828336"
+                    >594828336</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Niyati<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=627078337"
+                    >627078337</a
+                  >
+                </td>
+                <td>19:45-20:00 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  𒈞 ᗷяᎥŞƬᎥ 𒈞<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=580626565"
+                    >580626565</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Aashika🥀<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=615536198"
+                    >615536198</a
+                  >
+                </td>
+                <td>20:00-20:15 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  ❤RAI❤<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=623397140"
+                    >623397140</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  戀😡 bul bul🤜戀<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=605118147"
+                    >605118147</a
+                  >
+                </td>
+                <td>20:15-20:30 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  Monika<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=584260474"
+                    >584260474</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  ❤KASHIKA❤<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=591255054"
+                    >591255054</a
+                  >
+                </td>
+                <td>20:30-20:45 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  😈𒈞✦ᴠɪʀᴀ🅝ɢɪɴɪ✦𒈞😈<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=588686171"
+                    >588686171</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  Malaika 🤩🤩<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=614050029"
+                    >614050029</a
+                  >
+                </td>
+                <td>20:45-21:00 IST</td>
+              </tr>
+              <tr class="pos">
+                <td>15/08/2022</td>
+                <td>
+                  Boss Lady<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=622736387"
+                    >622736387</a
+                  >
+                </td>
+                <td><img src="img/Vs-min.png" alt="" /></td>
+                <td>
+                  crazy girl<br />ID:<a
+                    href="http://www.kktv1.com/m/?roomid=574918943"
+                    >574918943</a
+                  >
+                </td>
+                <td>21:00-21:15 IST</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div> -->
+  </div>
+  <div class="coltwo1">
+    <div class="tab1">
+      <button onclick="openTab5('talentScheduleRound1','round14','round24')">
+        <img src="img/Round1ButtonSelect.png" alt="" id="round14" />
+      </button>
+    </div>
+    <div class="tab1">
+      <button onclick="openTab5('talentScheduleRound2','round24','round14')">
+        <img src="img/Round2ButtonDeselect.png" alt="" id="round24" />
+      </button>
+    </div>
+  </div>
+  <div class="userScheduleRound1 talentSchedule" id="talentScheduleRound1">
+    <div class="yellowCurtain">
+      <img src="img/scheduleTitle.png" class="eventTitle1" alt="" />
+    </div>
+
+    <div class="schedule">
+      <div class="scheduleTableTab">
+        <button onclick="openTabContent('dance','round1')">PK Dance Battle</button>
+        <button onclick="openTabContent('shayri','round1')">PK Shayri Battle</button>
+        <button onclick="openTabContent('fashion','round1')">Tradditional Attire & Fashion Battle</button>
+      </div>
+      <div class="scheduleTable">
+        <!-- Example Tab Content -->
+    <div id="dance-round1" class="tabContent" style="display:none;">
+      <table>
+        <tr class="r1">
+          <th>Date</th>
+          <th>Player1</th>
+          <th><img src="img/Vs-min.png" alt="" /></th>
+          <th>Player2</th>
+          <th>Time</th>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>꧁༺ɨȶ'ֆ ʍɛɛռǟӄֆɦɨ༻꧂<br />ID:<a href="http://www.kktv1.com/m/?roomid=634167880">634167880</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>🎀❤️AKEERA❤️🎀<br />ID:<a href="http://www.kktv1.com/m/?roomid=559684988">559684988</a></td>
+          <td>20:00-20:15 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>"Vamp🖤 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=643177643">643177643</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"💎S᭄Nαɳα? "<br />ID:<a href="http://www.kktv1.com/m/?roomid=642206675">642206675</a></td>
+          <td>20:15-20:30 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>"janviG "<br />ID:<a href="http://www.kktv1.com/m/?roomid=642203798">642203798</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"💞S᭄ꦿsaamaaya 💞 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=591620682">591620682</a></td>
+          <td>20:30-20:45 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>🎸Siya Singh 🎸🙂<br />ID:<a href="http://www.kktv1.com/m/?roomid=628264282">628264282</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"Ooru💫 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=633310564">633310564</a></td>
+          <td>20:45-21:00 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>𝓐𝓴𝓼𝓱𝓲𝓽𝓪<br />ID:<a href="http://www.kktv1.com/m/?roomid=600872607">600872607</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"S᭄ 🍁 ℕ𝕌ℙ𝕌ℝ🍁 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=631104396">631104396</a></td>
+          <td>21:00-21:15 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>"🎙️ Singer Sarita 🎧 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=584004453">584004453</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"🦢₴᭄ꦿ 𝙈𝙊𝙉𝘼🍡 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=614097927">614097927</a></td>
+          <td>21:15-21:30 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>🦋⃟✮⃝🇲u̷s̷k̷a̷n̷𝄟⃝)<br />ID:<a href="http://www.kktv1.com/m/?roomid=623248845">623248845</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"byee byee "<br />ID:<a href="http://www.kktv1.com/m/?roomid=616703356">616703356</a></td>
+          <td>21:30-21:45 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>𝄞⃝PariSingh𝄞⃝🍒🕊️<br />ID:<a href="http://www.kktv1.com/m/?roomid=629751046">629751046</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"💞S᭄sRiStï? "<br />ID:<a href="http://www.kktv1.com/m/?roomid=605056219">605056219</a></td>
+          <td>21:45-22:00 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>"😡👑ợµэи🐼✨🔥 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=625028412">625028412</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"ANU🤍 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=638033440">638033440</a></td>
+          <td>22:00-22:15 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>"Cute Angel 🥺 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=589869054">589869054</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"💞S᭄ꦿ™?️SaRa🏝️ "<br />ID:<a href="http://www.kktv1.com/m/?roomid=597903766">597903766</a></td>
+          <td>22:15-22:30 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>"Avya❣️ "<br />ID:<a href="http://www.kktv1.com/m/?roomid=644332478">644332478</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>":⁠-⁠(chahat.:⁠-⁠) "<br />ID:<a href="http://www.kktv1.com/m/?roomid=641336042">641336042</a></td>
+          <td>22:30-22:45 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>"༺☆ⲧᖇ𝑀☆༻chhaya "<br />ID:<a href="http://www.kktv1.com/m/?roomid=611205198">611205198</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"🆂᭄ꦿ🆂🅾🅱🅽🅾🅼👑. "<br />ID:<a href="http://www.kktv1.com/m/?roomid=634149111">634149111</a></td>
+          <td>22:45-23:00 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>"Priyansi1 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=631543176">631543176</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"S᭄🖤Ｔ𝒆∂∂ㄚ в𝒆𝐀я🖤 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=633447348">633447348</a></td>
+          <td>23:00-23:15 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>"SINGER RAHUL SANU🎵 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=624018371">624018371</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"🌹Rani.sk "<br />ID:<a href="http://www.kktv1.com/m/?roomid=635468097">635468097</a></td>
+          <td>23:15-23:30 IST</td>
+        </tr>
+
+      </table>
+    </div>
+
+    <div id="shayri-round1" class="tabContent" style="display:none;">
+      <table>
+        <tr class="r1">
+          <th>Date</th>
+          <th>Player1</th>
+          <th><img src="img/Vs-min.png" alt="" /></th>
+          <th>Player2</th>
+          <th>Time</th>
+        </tr>
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>"Avya❣️ "<br />ID:<a href="http://www.kktv1.com/m/?roomid=644332478">644332478</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>":⁠-⁠(chahat.:⁠-⁠) "<br />ID:<a href="http://www.kktv1.com/m/?roomid=641336042">641336042</a></td>
+          <td>22:30-22:45 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>"༺☆ⲧᖇ𝑀☆༻chhaya "<br />ID:<a href="http://www.kktv1.com/m/?roomid=611205198">611205198</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"🆂᭄ꦿ🆂🅾🅱🅽🅾🅼👑. "<br />ID:<a href="http://www.kktv1.com/m/?roomid=634149111">634149111</a></td>
+          <td>22:45-23:00 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>"Priyansi1 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=631543176">631543176</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"S᭄🖤Ｔ𝒆∂∂ㄚ в𝒆𝐀я🖤 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=633447348">633447348</a></td>
+          <td>23:00-23:15 IST</td>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>"SINGER RAHUL SANU🎵 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=624018371">624018371</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"🌹Rani.sk "<br />ID:<a href="http://www.kktv1.com/m/?roomid=635468097">635468097</a></td>
+          <td>23:15-23:30 IST</td>
+        </tr>
+
+      </table>
+    </div>
+
+    <div id="fashion-round1" class="tabContent" style="display:none;">
+      <table>
+        <tr class="r1">
+          <th>Date</th>
+          <th>Player1</th>
+          <th><img src="img/Vs-min.png" alt="" /></th>
+          <th>Player2</th>
+          <th>Time</th>
+        </tr>
+
+        <tr class="pos">
+          <td>19-09-2023</td>
+          <td>"SINGER RAHUL SANU🎵 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=624018371">624018371</a></td>
+          <td><img src="img/Vs-min.png" alt="" /></td>
+          <td>"🌹Rani.sk "<br />ID:<a href="http://www.kktv1.com/m/?roomid=635468097">635468097</a></td>
+          <td>23:15-23:30 IST</td>
+        </tr>
+
+      </table>
+    </div>
+    
+        <!-- new table -->
+        <!-- <table id="dance-round1" style="display: none;">
+          <tr class="r1">
+            <th>Date</th>
+            <th>Player1</th>
+            <th><img src="img/Vs-min.png" alt="" /></th>
+            <th>Player2</th>
+            <th>Time</th>
+          </tr>
+
+          <tr class="pos">
+            <td>19-09-2023</td>
+            <td>꧁༺ɨȶ'ֆ ʍɛɛռǟӄֆɦɨ༻꧂<br />ID:<a href="http://www.kktv1.com/m/?roomid=634167880">634167880</a></td>
+            <td><img src="img/Vs-min.png" alt="" /></td>
+            <td>🎀❤️AKEERA❤️🎀<br />ID:<a href="http://www.kktv1.com/m/?roomid=559684988">559684988</a></td>
+            <td>20:00-20:15 IST</td>
+          </tr>
+
+          <tr class="pos">
+            <td>19-09-2023</td>
+            <td>"Vamp🖤 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=643177643">643177643</a></td>
+            <td><img src="img/Vs-min.png" alt="" /></td>
+            <td>"💎S᭄Nαɳα? "<br />ID:<a href="http://www.kktv1.com/m/?roomid=642206675">642206675</a></td>
+            <td>20:15-20:30 IST</td>
+          </tr>
+
+          <tr class="pos">
+            <td>19-09-2023</td>
+            <td>"janviG "<br />ID:<a href="http://www.kktv1.com/m/?roomid=642203798">642203798</a></td>
+            <td><img src="img/Vs-min.png" alt="" /></td>
+            <td>"💞S᭄ꦿsaamaaya 💞 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=591620682">591620682</a></td>
+            <td>20:30-20:45 IST</td>
+          </tr>
+
+          <tr class="pos">
+            <td>19-09-2023</td>
+            <td>🎸Siya Singh 🎸🙂<br />ID:<a href="http://www.kktv1.com/m/?roomid=628264282">628264282</a></td>
+            <td><img src="img/Vs-min.png" alt="" /></td>
+            <td>"Ooru💫 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=633310564">633310564</a></td>
+            <td>20:45-21:00 IST</td>
+          </tr>
+
+          <tr class="pos">
+            <td>19-09-2023</td>
+            <td>𝓐𝓴𝓼𝓱𝓲𝓽𝓪<br />ID:<a href="http://www.kktv1.com/m/?roomid=600872607">600872607</a></td>
+            <td><img src="img/Vs-min.png" alt="" /></td>
+            <td>"S᭄ 🍁 ℕ𝕌ℙ𝕌ℝ🍁 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=631104396">631104396</a></td>
+            <td>21:00-21:15 IST</td>
+          </tr>
+
+          <tr class="pos">
+            <td>19-09-2023</td>
+            <td>"🎙️ Singer Sarita 🎧 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=584004453">584004453</a></td>
+            <td><img src="img/Vs-min.png" alt="" /></td>
+            <td>"🦢₴᭄ꦿ 𝙈𝙊𝙉𝘼🍡 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=614097927">614097927</a></td>
+            <td>21:15-21:30 IST</td>
+          </tr>
+
+          <tr class="pos">
+            <td>19-09-2023</td>
+            <td>🦋⃟✮⃝🇲u̷s̷k̷a̷n̷𝄟⃝)<br />ID:<a href="http://www.kktv1.com/m/?roomid=623248845">623248845</a></td>
+            <td><img src="img/Vs-min.png" alt="" /></td>
+            <td>"byee byee "<br />ID:<a href="http://www.kktv1.com/m/?roomid=616703356">616703356</a></td>
+            <td>21:30-21:45 IST</td>
+          </tr>
+
+          <tr class="pos">
+            <td>19-09-2023</td>
+            <td>𝄞⃝PariSingh𝄞⃝🍒🕊️<br />ID:<a href="http://www.kktv1.com/m/?roomid=629751046">629751046</a></td>
+            <td><img src="img/Vs-min.png" alt="" /></td>
+            <td>"💞S᭄sRiStï? "<br />ID:<a href="http://www.kktv1.com/m/?roomid=605056219">605056219</a></td>
+            <td>21:45-22:00 IST</td>
+          </tr>
+
+          <tr class="pos">
+            <td>19-09-2023</td>
+            <td>"😡👑ợµэи🐼✨🔥 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=625028412">625028412</a></td>
+            <td><img src="img/Vs-min.png" alt="" /></td>
+            <td>"ANU🤍 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=638033440">638033440</a></td>
+            <td>22:00-22:15 IST</td>
+          </tr>
+
+          <tr class="pos">
+            <td>19-09-2023</td>
+            <td>"Cute Angel 🥺 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=589869054">589869054</a></td>
+            <td><img src="img/Vs-min.png" alt="" /></td>
+            <td>"💞S᭄ꦿ™?️SaRa🏝️ "<br />ID:<a href="http://www.kktv1.com/m/?roomid=597903766">597903766</a></td>
+            <td>22:15-22:30 IST</td>
+          </tr>
+
+          <tr class="pos">
+            <td>19-09-2023</td>
+            <td>"Avya❣️ "<br />ID:<a href="http://www.kktv1.com/m/?roomid=644332478">644332478</a></td>
+            <td><img src="img/Vs-min.png" alt="" /></td>
+            <td>":⁠-⁠(chahat.:⁠-⁠) "<br />ID:<a href="http://www.kktv1.com/m/?roomid=641336042">641336042</a></td>
+            <td>22:30-22:45 IST</td>
+          </tr>
+
+          <tr class="pos">
+            <td>19-09-2023</td>
+            <td>"༺☆ⲧᖇ𝑀☆༻chhaya "<br />ID:<a href="http://www.kktv1.com/m/?roomid=611205198">611205198</a></td>
+            <td><img src="img/Vs-min.png" alt="" /></td>
+            <td>"🆂᭄ꦿ🆂🅾🅱🅽🅾🅼👑. "<br />ID:<a href="http://www.kktv1.com/m/?roomid=634149111">634149111</a></td>
+            <td>22:45-23:00 IST</td>
+          </tr>
+
+          <tr class="pos">
+            <td>19-09-2023</td>
+            <td>"Priyansi1 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=631543176">631543176</a></td>
+            <td><img src="img/Vs-min.png" alt="" /></td>
+            <td>"S᭄🖤Ｔ𝒆∂∂ㄚ в𝒆𝐀я🖤 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=633447348">633447348</a></td>
+            <td>23:00-23:15 IST</td>
+          </tr>
+
+          <tr class="pos">
+            <td>19-09-2023</td>
+            <td>"SINGER RAHUL SANU🎵 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=624018371">624018371</a></td>
+            <td><img src="img/Vs-min.png" alt="" /></td>
+            <td>"🌹Rani.sk "<br />ID:<a href="http://www.kktv1.com/m/?roomid=635468097">635468097</a></td>
+            <td>23:15-23:30 IST</td>
+          </tr>
+
+        </table> -->
+      </div>
+    </div>
+  </div>
+  <div class="userScheduleRound1 talentSchedule" id="talentScheduleRound2" style="display: none">
+    <div class="yellowCurtain">
+      <img src="img/scheduleTitle.png" class="eventTitle1" alt="" />
+    </div>
+    <div class="schedule">
+      <div class="scheduleTable">
+        <div class="scheduleTableTab2">
+          <button onclick="openTabContent2('dance','round2')">PK Dance Battle</button>
+          <button onclick="openTabContent2('shayri','round2')">PK Shayri Battle</button>
+          <button onclick="openTabContent2('fashion','round2')">Tradditional Attire & Fashion Battle</button>
+        </div>
+
+        <div id="shayri-round2" class="tabContent2" style="display:none;">
+          <table>
+            <tr class="r1">
+              <th>Date</th>
+              <th>Talent1</th>
+              <th><img src="img/Vs-min.png" alt="" /></th>
+              <th>Talent2</th>
+              <th>Time</th>
+            </tr>
+
+            <tr class="pos">
+              <td>21-09-2023</td>
+              <td>💠 ⃪ͥ͢ ᭄ᷟֆɛռօʀɨ𐀀ǟ👒<br />ID:<a href="http://www.kktv1.com/m/?roomid=585800897">585800897</a></td>
+              <td><img src="img/Vs-min.png" alt="" /></td>
+              <td>"Ooru💫 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=633310564">633310564</a></td>
+              <td>21:30-21:45 IST</td>
+            </tr>
+  
+            <tr class="pos">
+              <td>21-09-2023</td>
+              <td>🦋⃟✮⃝🇲u̷s̷k̷a̷n̷𝄟⃝)<br />ID:<a href="http://www.kktv1.com/m/?roomid=623248845">623248845</a></td>
+              <td><img src="img/Vs-min.png" alt="" /></td>
+              <td>"S᭄🖤Ｔ𝒆∂∂ㄚ в𝒆𝐀я🖤 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=633447348">633447348</a></td>
+              <td>21:45-22:00 IST</td>
+            </tr>
+
+          </table>
+        </div>
+    
+        <div id="fashion-round2" class="tabContent2" style="display:none;">
+          <table>
+            <tr class="r1">
+              <th>Date</th>
+              <th>Talent1</th>
+              <th><img src="img/Vs-min.png" alt="" /></th>
+              <th>Talent2</th>
+              <th>Time</th>
+            </tr>
+
+            <tr class="pos">
+              <td>21-09-2023</td>
+              <td>❤️प्रिया ❤️❤️❤️❤️💞<br />ID:<a href="http://www.kktv1.com/m/?roomid=633906977">633906977</a></td>
+              <td><img src="img/Vs-min.png" alt="" /></td>
+              <td>💞S᭄ꦿ🤍༺Dђrΐtΐ༻🤍<br />ID:<a href="http://www.kktv1.com/m/?roomid=616703356">616703356</a></td>
+              <td>22:15-22:30 IST</td>
+            </tr>
+  
+            <tr class="pos">
+              <td>21-09-2023</td>
+              <td>𝓐𝓴𝓼𝓱𝓲𝓽𝓪<br />ID:<a href="http://www.kktv1.com/m/?roomid=600872607">600872607</a></td>
+              <td><img src="img/Vs-min.png" alt="" /></td>
+              <td>"༺☆ⲧᖇ𝑀☆༻chhaya "<br />ID:<a href="http://www.kktv1.com/m/?roomid=611205198">611205198</a></td>
+              <td>22:30-22:45 IST</td>
+            </tr>
+          </table>
+        </div>
+
+        <div id="dance-round2" class="tabContent2" style="display:none;">
+          <table>
+            <tr class="r1">
+              <th>Date</th>
+              <th>Talent1</th>
+              <th><img src="img/Vs-min.png" alt="" /></th>
+              <th>Talent2</th>
+              <th>Time</th>
+            </tr>
+  
+            <tr class="pos">
+              <td>21-09-2023</td>
+              <td>"🎙️ Singer Sarita 🎧 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=584004453">584004453</a></td>
+              <td><img src="img/Vs-min.png" alt="" /></td>
+              <td>🆂᭄ꦿ🆂🅾🅱🅽🅾🅼👑. <br />ID:<a href="http://www.kktv1.com/m/?roomid=634149111">634149111</a></td>
+              <td>20:45-21:00 IST</td>
+            </tr>
+  
+            <tr class="pos">
+              <td>21-09-2023</td>
+              <td>𝄞⃝PariSingh𝄞⃝🍒🕊️<br />ID:<a href="http://www.kktv1.com/m/?roomid=629751046">629751046</a></td>
+              <td><img src="img/Vs-min.png" alt="" /></td>
+              <td>"🦢₴᭄ꦿ 𝙈𝙊𝙉𝘼🍡 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=614097927">614097927</a></td>
+              <td>21:00-21:15 IST</td>
+            </tr>
+  
+            <tr class="pos">
+              <td>21-09-2023</td>
+              <td>"Vamp🖤 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=643177643">643177643</a></td>
+              <td><img src="img/Vs-min.png" alt="" /></td>
+              <td>🎸Siya Singh 🎸🙂<br />ID:<a href="http://www.kktv1.com/m/?roomid=628264282">628264282</a></td>
+              <td>21:15-21:30 IST</td>
+            </tr>
+  
+            <tr class="pos">
+              <td>21-09-2023</td>
+              <td>💠 ⃪ͥ͢ ᭄ᷟֆɛռօʀɨ𐀀ǟ👒<br />ID:<a href="http://www.kktv1.com/m/?roomid=585800897">585800897</a></td>
+              <td><img src="img/Vs-min.png" alt="" /></td>
+              <td>"Ooru💫 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=633310564">633310564</a></td>
+              <td>21:30-21:45 IST</td>
+            </tr>
+  
+            <tr class="pos">
+              <td>21-09-2023</td>
+              <td>🦋⃟✮⃝🇲u̷s̷k̷a̷n̷𝄟⃝)<br />ID:<a href="http://www.kktv1.com/m/?roomid=623248845">623248845</a></td>
+              <td><img src="img/Vs-min.png" alt="" /></td>
+              <td>"S᭄🖤Ｔ𝒆∂∂ㄚ в𝒆𝐀я🖤 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=633447348">633447348</a></td>
+              <td>21:45-22:00 IST</td>
+            </tr>
+  
+            <tr class="pos">
+              <td>21-09-2023</td>
+              <td>"😡👑ợµэи🐼✨🔥 "<br />ID:<a href="http://www.kktv1.com/m/?roomid=625028412">625028412</a></td>
+              <td><img src="img/Vs-min.png" alt="" /></td>
+              <td>":⁠-⁠(chahat.:⁠-⁠) "<br />ID:<a href="http://www.kktv1.com/m/?roomid=641336042">641336042</a></td>
+              <td>22:00-22:15 IST</td>
+            </tr>
+  
+            <tr class="pos">
+              <td>21-09-2023</td>
+              <td>❤️प्रिया ❤️❤️❤️❤️💞<br />ID:<a href="http://www.kktv1.com/m/?roomid=633906977">633906977</a></td>
+              <td><img src="img/Vs-min.png" alt="" /></td>
+              <td>💞S᭄ꦿ🤍༺Dђrΐtΐ༻🤍<br />ID:<a href="http://www.kktv1.com/m/?roomid=616703356">616703356</a></td>
+              <td>22:15-22:30 IST</td>
+            </tr>
+  
+            <tr class="pos">
+              <td>21-09-2023</td>
+              <td>𝓐𝓴𝓼𝓱𝓲𝓽𝓪<br />ID:<a href="http://www.kktv1.com/m/?roomid=600872607">600872607</a></td>
+              <td><img src="img/Vs-min.png" alt="" /></td>
+              <td>"༺☆ⲧᖇ𝑀☆༻chhaya "<br />ID:<a href="http://www.kktv1.com/m/?roomid=611205198">611205198</a></td>
+              <td>22:30-22:45 IST</td>
+            </tr>
+  
+  
+          </table>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="coltwo">
+    <div class="tab">
+      <button onclick="openTab1('user_leader','user1','talent1')">
+        <img src="img/UserButtonSelect.png" alt="" id="user1" />
+      </button>
+    </div>
+    <div class="tab">
+      <button onclick="openTab1('talent_leader','talent1','user1')">
+        <img src="img/TalentButtonDeselect.png" alt="" id="talent1" />
+      </button>
+    </div>
+  </div>
+  <div class="leaderBoard" id="user_leader">
+    <div class="coltwo1">
+      <div class="tab1">
+        <button onclick="openTab6('userleaderBoardRound1','round15','round25')">
+          <img src="img/Round1ButtonSelect.png" alt="" id="round15" />
+        </button>
+      </div>
+      <div class="tab1">
+        <button onclick="openTab6('userleaderBoardRound2','round25','round15')" disabled>
+          <img src="img/Round2ButtonDeselect.png" alt="" id="round25" />
+        </button>
+      </div>
+    </div>
+    <div class="userleaderBoard leaderuser" id="userleaderBoardRound1">
+      <div class="leaderBoardTitle">
+        <img src="img/leaderTitle.png" alt="" />
+      </div>
+      <div class="userbeanPot">Bean Pot : 62,501 <img src="img/coin.png" class="imgsmal" alt="" /></div>
+          <table class="tabFrame">
+            <tr class="frames">
+              <td class="td1">
+                <div class="silverPro">
+                  <a href="http://www.kktv1.com/m/?roomid=629221214"><img src="img/User/2nd user.png" alt="img" /></a>
+                </div>
+                <div class="frameText">
+                  <p>
+                    "🙄🫥 cute : cute🫥🙄 "<br />
+                    ID:629221214 <br />
+                    <span>250,010 <img src="img/coin.png" alt="" /></span>
+                  </p>
+                </div>
+              </td>
+              <td class="td2">
+                <div class="goldPro">
+                  <a href="http://www.kktv1.com/m/?roomid=555920537"><img src="img/User/1st user.png" alt="img" /> </a>
+                </div>
+                <div class="frameText">
+                  <p>
+                    𝑀𝒶𝒽𝒾<br />
+                    ID:555920537 <br />
+                    <span>254,390 <img src="img/coin.png" alt="" /></span>
+                  </p>
+                </div>
+              </td>
+              <td class="td3">
+                <div class="bronzePro">
+                  <a href="http://www.kktv1.com/m/?roomid=565992845"> <img src="img/User/3rd user.png" alt="" /></a>
+                </div>
+                <div class="frameText">
+                  <p>
+                    "꧁☬RØϻ͢͢͢ⱥn Reigns☬༒꧂ "<br />
+                    ID:565992845 <br />
+                    <span>225,000 <img src="img/coin.png" alt="" /></span>
+                  </p>
+                </div>
+              </td>
+            </tr>
+          </table>
+
+      
+      <div class="contentSize">
+        <div id="conDiv">
+
+        </div>
+      </div>
+    </div>
+    <div class="userleaderBoard leaderuser" id="userleaderBoardRound2" style="display: none">
+      <div class="leaderBoardTitle">
+        <img src="img/leaderTitle.png" alt="" />
+      </div>
+      <table class="tabFrame">
+        <tr class="frames">
+          <td class="td1">
+            <div class="silverPro">
+              <img src="" alt="img" />
+            </div>
+            <div class="frameText">
+              <p>
+                Nikhil More <br />
+                ID:12002993 <br />
+                <img src="img/coin.png" alt="" /> 10200210
+              </p>
+            </div>
+          </td>
+          <td class="td2">
+            <div class="goldPro">
+              <img src="" alt="" />
+            </div>
+            <div class="frameText">
+              <p>
+                Nikhil More <br />
+                ID:12002993 <br />
+                <img src="img/coin.png" alt="" /> 10200210
+              </p>
+            </div>
+          </td>
+          <td class="td3">
+            <div class="bronzePro">
+              <img src="" alt="" />
+            </div>
+            <div class="frameText">
+              <p>
+                Nikhil More <br />
+                ID:12002993 <br />
+                <img src="img/coin.png" alt="" /> 10200210
+              </p>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <div class="LeaderStrip">
+        <div class="position">04</div>
+        <div>
+          <a href="http://www.kktv1.com/m/?roomid=616526524"><img src="../common/img/kk_head_avatar_men.png"
+              id="u_img_616526524" alt="" class="imgClass" /></a>
+        </div>
+        <div class="lastDiv">
+          <span class="dancing">Mera Deewana ❤️❤️</span>
+        </div>
+        <div class="centerDiv">
+          <img src="img/coin.png" class="imgsmal" />571,000
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="leaderBoard" id="talent_leader" style="display: none;">
+    <div class="coltwo1">
+      <div class="tab1">
+        <button onclick="openTab7('talentleaderBoardRound1','round16','round26')">
+          <img src="img/Round1ButtonSelect.png" alt="" id="round16" />
+        </button>
+      </div>
+      <div class="tab1">
+        <button onclick="openTab7('talentleaderBoardRound2','round26','round16')" disabled>
+          <img src="img/Round2ButtonDeselect.png" alt="" id="round26" />
+        </button>
+      </div>
+    </div>
+    <div class="userleaderBoard leadertalent" id="talentleaderBoardRound1">
+      <div class="leaderBoardTitle">
+        <img src="img/leaderTitle.png" alt="" />
+      </div>
+      <div class="leaderBoardTableTab">
+        <button onclick="leaderBoardTab('dance','round3')">PK Dance Battle</button>
+        <button onclick="leaderBoardTab('shayri','round3')">PK Shayri Battle</button>
+        <button onclick="leaderBoardTab('fashion','round3')">Tradditional Attire & Fashion Battle</button>
+      </div>
+
+      <div id="dance-round3" class="tabContent3" style="display:none;">
+          <table class="tabFrame">
+          <tr class="frames">
+            <td class="td1">
+              <div class="silverPro">
+                <a href="http://www.kktv1.com/m/?roomid=600872607"><img src="img/Talent/2nd talent.png" alt="img" /></a>
+
+              </div>
+              <div class="frameText">
+                <p>
+                  𝓐𝓴𝓼𝓱𝓲𝓽𝓪<br />
+                  ID:600872607 <br />
+                  <span>432,370 <img src="img/coin.png" alt="" /></span>
+                </p>
+              </div>
+            </td>
+            <td class="td2">
+              <div class="goldPro">
+                <a href="http://www.kktv1.com/m/?roomid=611205198"><img src="img/Talent/1st Talent.png" alt="" /></a>
+
+              </div>
+              <div class="frameText">
+                <p>
+                  "༺☆ⲧᖇ𝑀☆༻chhaya "<br />
+                  ID:611205198 <br />
+                  <span>442,740 <img src="img/coin.png" alt="" /></span>
+                </p>
+              </div>
+            </td>
+            <td class="td3">
+              <div class="bronzePro">
+                <a href="http://www.kktv1.com/m/?roomid=634149111"><img src="img/Talent/3rd talent.png" alt="" /></a>
+
+              </div>
+              <div class="frameText">
+                <p>
+                  "🆂᭄ꦿ🆂🅾🅱🅽🅾🅼👑. "<br />
+                  ID:634149111 <br />
+                  <span>411,020 <img src="img/coin.png" alt="" /></span>
+                </p>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <div class="contentSize">
+          <div id="conDivTalent">
+
+          </div>
+        </div>
+      </div>
+
+      <div id="shayri-round3" class="tabContent3" style="display:none;">
+        <table class="tabFrame">
+          <tr class="frames">
+            <td class="td1">
+              <div class="silverPro">
+                <a href="http://www.kktv1.com/m/?roomid=600872607"><img src="img/Talent/2nd talent.png" alt="img" /></a>
+  
+              </div>
+              <div class="frameText">
+                <p>
+                  Kadir<br />
+                  ID:522875707 <br />
+                  <span>532,370 <img src="img/coin.png" alt="" /></span>
+                </p>
+              </div>
+            </td>
+            <td class="td2">
+              <div class="goldPro">
+                <a href="http://www.kktv1.com/m/?roomid=611205198"><img src="img/Talent/1st Talent.png" alt="" /></a>
+  
+              </div>
+              <div class="frameText">
+                <p>
+                  "OCD Bhai"<br />
+                  ID:611202484 <br />
+                  <span>257,740 <img src="img/coin.png" alt="" /></span>
+                </p>
+              </div>
+            </td>
+            <td class="td3">
+              <div class="bronzePro">
+                <a href="http://www.kktv1.com/m/?roomid=634149111"><img src="img/Talent/3rd talent.png" alt="" /></a>
+  
+              </div>
+              <div class="frameText">
+                <p>
+                  "Jabir"<br />
+                  ID:54819111 <br />
+                  <span>541,020 <img src="img/coin.png" alt="" /></span>
+                </p>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <!-- <div class="contentSize">
+          <div id="conDivTalent">
+  
+          </div>
+        </div> -->
+      </div>
+
+      <div id="fashion-round3" class="tabContent3" style="display:none;">
+        <table class="tabFrame">
+          <tr class="frames">
+            <td class="td1">
+              <div class="silverPro">
+                <a href="http://www.kktv1.com/m/?roomid=600872607"><img src="img/Talent/2nd talent.png" alt="img" /></a>
+  
+              </div>
+              <div class="frameText">
+                <p>
+                  Anjali<br />
+                  ID:522875707 <br />
+                  <span>532,370 <img src="img/coin.png" alt="" /></span>
+                </p>
+              </div>
+            </td>
+            <td class="td2">
+              <div class="goldPro">
+                <a href="http://www.kktv1.com/m/?roomid=611205198"><img src="img/Talent/1st Talent.png" alt="" /></a>
+  
+              </div>
+              <div class="frameText">
+                <p>
+                  "Rajat"<br />
+                  ID:611202484 <br />
+                  <span>257,740 <img src="img/coin.png" alt="" /></span>
+                </p>
+              </div>
+            </td>
+            <td class="td3">
+              <div class="bronzePro">
+                <a href="http://www.kktv1.com/m/?roomid=634149111"><img src="img/Talent/3rd talent.png" alt="" /></a>
+  
+              </div>
+              <div class="frameText">
+                <p>
+                  "Neha"<br />
+                  ID:54819111 <br />
+                  <span>541,020 <img src="img/coin.png" alt="" /></span>
+                </p>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <!-- <div class="contentSize">
+          <div id="conDivTalent">
+  
+          </div>
+        </div> -->
+      </div>
+      <!-- <table class="tabFrame">
+        <tr class="frames">
+          <td class="td1">
+            <div class="silverPro">
+              <a href="http://www.kktv1.com/m/?roomid=600872607"><img src="img/Talent/2nd talent.png" alt="img" /></a>
+
+            </div>
+            <div class="frameText">
+              <p>
+                𝓐𝓴𝓼𝓱𝓲𝓽𝓪<br />
+                ID:600872607 <br />
+                <span>432,370 <img src="img/coin.png" alt="" /></span>
+              </p>
+            </div>
+          </td>
+          <td class="td2">
+            <div class="goldPro">
+              <a href="http://www.kktv1.com/m/?roomid=611205198"><img src="img/Talent/1st Talent.png" alt="" /></a>
+
+            </div>
+            <div class="frameText">
+              <p>
+                "༺☆ⲧᖇ𝑀☆༻chhaya "<br />
+                ID:611205198 <br />
+                <span>442,740 <img src="img/coin.png" alt="" /></span>
+              </p>
+            </div>
+          </td>
+          <td class="td3">
+            <div class="bronzePro">
+              <a href="http://www.kktv1.com/m/?roomid=634149111"><img src="img/Talent/3rd talent.png" alt="" /></a>
+
+            </div>
+            <div class="frameText">
+              <p>
+                "🆂᭄ꦿ🆂🅾🅱🅽🅾🅼👑. "<br />
+                ID:634149111 <br />
+                <span>411,020 <img src="img/coin.png" alt="" /></span>
+              </p>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <div class="contentSize">
+        <div id="conDivTalent">
+
+        </div>
+      </div> -->
+    </div>
+    <div class="userleaderBoard leadertalent" id="talentleaderBoardRound2" style="display: none">
+      <div class="leaderBoardTitle">
+        <img src="img/leaderTitle.png" alt="" />
+      </div>
+      <table class="tabFrame">
+        <tr class="frames">
+          <td class="td1">
+            <div class="silverPro">
+              <img src="" alt="img" />
+            </div>
+            <div class="frameText">
+              <p>
+                Nikhil More <br />
+                ID:12002993 <br />
+                <img src="img/coin.png" alt="" /> 10200210
+              </p>
+            </div>
+          </td>
+          <td class="td2">
+            <div class="goldPro">
+              <img src="" alt="" />
+            </div>
+            <div class="frameText">
+              <p>
+                Nikhil More <br />
+                ID:12002993 <br />
+                <img src="img/coin.png" alt="" /> 10200210
+              </p>
+            </div>
+          </td>
+          <td class="td3">
+            <div class="bronzePro">
+              <img src="" alt="" />
+            </div>
+            <div class="frameText">
+              <p>
+                Nikhil More <br />
+                ID:12002993 <br />
+                <img src="img/coin.png" alt="" /> 10200210
+              </p>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <div class="LeaderStrip">
+        <div class="position">04</div>
+        <div>
+          <a href="http://www.kktv1.com/m/?roomid=616526524"><img src="../common/img/kk_head_avatar_men.png"
+              id="u_img_616526524" alt="" class="imgClass" /></a>
+        </div>
+        <div class="lastDiv">
+          <span class="dancing">Mera Deewana ❤️❤️</span>
+        </div>
+        <div class="centerDiv">
+          <img src="img/coin.png" class="imgsmal" />571,000
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">All Rights Reserved By Streamkar </div>
+  <div class="userleaderBoard1" style="display: none">
+    <div class="leaderBoardTitle">
+      <img src="img/leaderTitle.png" alt="" />
+    </div>
+    <p>Event is not yet Started</p>
+  </div>
+  <script type="text/javascript">
+    //openTab('userRewards','user','talent');
+    openTab("userRewards", "user", "talent");
+    function openTab(tabToOpen, active_btn, inActive_btn) {
+      console.log('kadir...',tabToOpen);
+      let content = document.getElementsByClassName("rewards");
+      for (let i of content) {
+        i.style.display = "none";
+      }
+      document.getElementById(tabToOpen).style.display = "block";
+      if (active_btn == "user") {
+        document.getElementById(active_btn).src = "img/UserButtonSelect.png";
+        document.getElementById(inActive_btn).src =
+          "img/TalentButtonDeselect.png";
+      }
+      if (active_btn == "talent") {
+        document.getElementById(active_btn).src =
+          "img/TalentButtonSelect.png";
+        document.getElementById(inActive_btn).src =
+          "img/UserButtonDeselect.png";
+      }
+    }
+
+    // function openTabContent(tabToOpen, active_btn) {
+    //   console.log('tabToOpen...',tabToOpen);
+    //   let content = document.getElementsByClassName("rewards");
+    //   for (let i of content) {
+    //     i.style.display = "none";
+    //   }
+    //   document.getElementById(tabToOpen).style.display = "block";
+    //   if (active_btn == "user") {
+    //     document.getElementById(active_btn).src = "img/selected-button.png";
+    //     document.getElementById(inActive_btn).src =
+    //       "img/unselected-button";
+    //   }
+    //   if (active_btn == "talent") {
+    //     document.getElementById(active_btn).src =
+    //       "img/selected-button.png";
+    //     document.getElementById(inActive_btn).src =
+    //       "img/unselected-button";
+    //   }
+    // }
+    //second approach
+  document.addEventListener('DOMContentLoaded', function() {
+  // Activate the first tab content on page load
+      const firstButton = document.querySelector('.scheduleTableTab button');
+      if (firstButton) {
+        firstButton.click(); // Trigger a click event on the first button
+      }
+
+      const firstButton2 = document.querySelector('.scheduleTableTab2 button');
+      if (firstButton2) {
+        firstButton2.click(); // Trigger a click event on the first button
+      }
+
+      const firstButton3 = document.querySelector('.leaderBoardTableTab button');
+      if (firstButton3) {
+        firstButton3.click(); // Trigger a click event on the first button
+      }
+  });
+
+function openTabContent(eventType, round) {
+  // Example: Hide all tab content initially
+  const tabContents = document.querySelectorAll('.tabContent');
+  tabContents.forEach(content => content.style.display = 'none');
+
+  // Remove active class from all buttons
+  const tabButtons = document.querySelectorAll('.scheduleTableTab button');
+  tabButtons.forEach(button => button.classList.remove('active'));
+
+  // Display the specific tab content based on the button clicked
+  const selectedContent = document.getElementById(`${eventType}-${round}`);
+  if (selectedContent) {
+    selectedContent.style.display = 'block';
+  } else {
+    console.error('No content found for', `${eventType}-${round}`);
+  }
+
+  // Add the active class to the clicked button
+  event.currentTarget.classList.add('active');
+}
+
+function openTabContent2(eventType, round) {
+  // Example: Hide all tab content initially
+  const tabContents = document.querySelectorAll('.tabContent2');
+  tabContents.forEach(content => content.style.display = 'none');
+
+  // Remove active class from all buttons
+  const tabButtons = document.querySelectorAll('.scheduleTableTab2 button');
+  tabButtons.forEach(button => button.classList.remove('active'));
+
+  // Display the specific tab content based on the button clicked
+  const selectedContent = document.getElementById(`${eventType}-${round}`);
+  if (selectedContent) {
+    selectedContent.style.display = 'block';
+  } else {
+    console.error('No content found for', `${eventType}-${round}`);
+  }
+
+  // Add the active class to the clicked button
+  event.currentTarget.classList.add('active');
+}
+
+
+function leaderBoardTab(eventType, round) {
+  console.log('leaderboardTab....???')
+  // Example: Hide all tab content initially
+  const tabContents = document.querySelectorAll('.tabContent3');
+  tabContents.forEach(content => content.style.display = 'none');
+
+  // Remove active class from all buttons
+  const tabButtons = document.querySelectorAll('.leaderBoardTableTab button');
+  tabButtons.forEach(button => button.classList.remove('active'));
+
+  // Display the specific tab content based on the button clicked
+  const selectedContent = document.getElementById(`${eventType}-${round}`);
+  if (selectedContent) {
+    selectedContent.style.display = 'block';
+  } else {
+    console.error('No content found for', `${eventType}-${round}`);
+  }
+
+  // Add the active class to the clicked button
+  event.currentTarget.classList.add('active');
+}
+
+    function openTab1(tabToOpen, active_btn, inActive_btn) {
+      let content = document.getElementsByClassName("leaderBoard");
+      for (let i of content) {
+        i.style.display = "none";
+      }
+      document.getElementById(tabToOpen).style.display = "block";
+      if (active_btn == "user1") {
+        document.getElementById(active_btn).src = "img/UserButtonSelect.png";
+        document.getElementById(inActive_btn).src =
+          "img/TalentButtonDeselect.png";
+      }
+      if (active_btn == "talent1") {
+        document.getElementById(active_btn).src =
+          "img/TalentButtonSelect.png";
+        document.getElementById(inActive_btn).src =
+          "img/UserButtonDeselect.png";
+      }
+    }
+
+    function openTab2(tabToOpen, active_btn, inActive_btn) {
+      let content = document.getElementsByClassName("userRewardRound1");
+      for (let i of content) {
+        i.style.display = "none";
+      }
+      document.getElementById(tabToOpen).style.display = "block";
+      if (active_btn == "round1") {
+        document.getElementById(active_btn).src =
+          "img/Round1ButtonSelect.png";
+        document.getElementById(inActive_btn).src =
+          "img/Round2ButtonDeselect.png";
+      }
+      if (active_btn == "round2") {
+        document.getElementById(active_btn).src =
+          "img/ROUND2BUTTONSELECT.png";
+        document.getElementById(inActive_btn).src =
+          "img/Round1ButtonDeselect.png";
+      }
+    }
+
+    function openTab3(tabToOpen, active_btn, inActive_btn) {
+      let content = document.getElementsByClassName("talentRound");
+      for (let i of content) {
+        i.style.display = "none";
+      }
+      document.getElementById(tabToOpen).style.display = "block";
+      if (active_btn == "round12") {
+        document.getElementById(active_btn).src =
+          "img/Round1ButtonSelect.png";
+        document.getElementById(inActive_btn).src =
+          "img/Round2ButtonDeselect.png";
+      }
+      if (active_btn == "round22") {
+        document.getElementById(active_btn).src =
+          "img/ROUND2BUTTONSELECT.png";
+        document.getElementById(inActive_btn).src =
+          "img/Round1ButtonDeselect.png";
+      }
+    }
+
+    function openTab4(tabToOpen, active_btn, inActive_btn) {
+      let content = document.getElementsByClassName("userScheduleRound1");
+      for (let i of content) {
+        i.style.display = "none";
+      }
+      document.getElementById(tabToOpen).style.display = "block";
+      if (active_btn == "round13") {
+        document.getElementById(active_btn).src =
+          "img/Round1ButtonSelect.png";
+        document.getElementById(inActive_btn).src =
+          "img/Round2ButtonDeselect.png";
+      }
+      if (active_btn == "round23") {
+        document.getElementById(active_btn).src =
+          "img/ROUND2BUTTONSELECT.png";
+        document.getElementById(inActive_btn).src =
+          "img/Round1ButtonDeselect.png";
+      }
+    }
+
+    function openTab5(tabToOpen, active_btn, inActive_btn) {
+      let content = document.getElementsByClassName("talentSchedule");
+      for (let i of content) {
+        i.style.display = "none";
+      }
+      document.getElementById(tabToOpen).style.display = "block";
+      if (active_btn == "round14") {
+        document.getElementById(active_btn).src =
+          "img/Round1ButtonSelect.png";
+        document.getElementById(inActive_btn).src =
+          "img/Round2ButtonDeselect.png";
+      }
+      if (active_btn == "round24") {
+        document.getElementById(active_btn).src =
+          "img/ROUND2BUTTONSELECT.png";
+        document.getElementById(inActive_btn).src =
+          "img/Round1ButtonDeselect.png";
+      }
+    }
+
+    function openTab6(tabToOpen, active_btn, inActive_btn) {
+      let content = document.getElementsByClassName("leaderuser");
+      for (let i of content) {
+        i.style.display = "none";
+      }
+      document.getElementById(tabToOpen).style.display = "block";
+      if (active_btn == "round15") {
+        document.getElementById(active_btn).src =
+          "img/Round1ButtonSelect.png";
+        document.getElementById(inActive_btn).src =
+          "img/Round2ButtonDeselect.png";
+      }
+      if (active_btn == "round25") {
+        document.getElementById(active_btn).src =
+          "img/ROUND2BUTTONSELECT.png";
+        document.getElementById(inActive_btn).src =
+          "img/Round1ButtonDeselect.png";
+      }
+    }
+
+    function openTab7(tabToOpen, active_btn, inActive_btn) {
+      let content = document.getElementsByClassName("leadertalent");
+      for (let i of content) {
+        i.style.display = "none";
+      }
+      document.getElementById(tabToOpen).style.display = "block";
+      if (active_btn == "round16") {
+        document.getElementById(active_btn).src =
+          "img/Round1ButtonSelect.png";
+        document.getElementById(inActive_btn).src =
+          "img/Round2ButtonDeselect.png";
+      }
+      if (active_btn == "round26") {
+        document.getElementById(active_btn).src =
+          "img/ROUND2BUTTONSELECT.png";
+        document.getElementById(inActive_btn).src =
+          "img/Round1ButtonDeselect.png";
+      }
+    }
+
+    slideIndex1 = 0;
+    function show1(x1) {
+      slideIndex1 = x1 + slideIndex1;
+      console.log(slideIndex1);
+      let myslide1 = document.getElementsByClassName("mySlide2");
+      for (let x of myslide1) {
+        x.style.display = "none";
+      }
+      if (slideIndex1 < 0 || slideIndex1 > myslide1.length - 1) {
+        slideIndex1 = 0;
+        myslide1[slideIndex1].style.display = "block";
+      } else {
+        myslide1[slideIndex1].style.display = "block";
+      }
+    }
+    slideIndex2 = 0;
+    function show2(x2) {
+      slideIndex2 = x2 + slideIndex2;
+      console.log(slideIndex2);
+      let mySlide2 = document.getElementsByClassName("mySlide4");
+      for (let x of mySlide2) {
+        x.style.display = "none";
+      }
+      if (slideIndex2 < 0 || slideIndex2 > mySlide2.length - 1) {
+        slideIndex2 = 0;
+        mySlide2[slideIndex2].style.display = "block";
+      } else {
+        mySlide2[slideIndex2].style.display = "block";
+      }
+    }
+    slideIndex3 = 0;
+    function show3(x3) {
+      slideIndex3 = x3 + slideIndex3;
+      console.log(slideIndex3);
+      let mySlide = document.getElementsByClassName("mySlide");
+      for (let x of mySlide) {
+        x.style.display = "none";
+      }
+      if (slideIndex3 < 0 || slideIndex3 > mySlide.length - 1) {
+        slideIndex3 = 0;
+        mySlide[slideIndex3].style.display = "block";
+      } else {
+        mySlide[slideIndex3].style.display = "block";
+      }
+    }
+    function closeGuide() {
+      document.getElementById('modal').style.display = "none";
+      document.getElementById('overlay').style.overflowY = "scroll";
+    }
+    function openGuide() {
+      document.getElementById('modal').style.display = "block";
+      document.getElementById('overlay').style.overflowY = "hidden";
+    }
+  </script>
+</body>
+
+</html>

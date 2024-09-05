@@ -1,0 +1,890 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+  text-decoration: none;
+}
+#conDiv{
+  
+height: 0%;
+}
+body {
+  margin: 0vw auto;
+  width: 100%;
+  background-image: url(../img/bg.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header {
+  margin: 0vw auto;
+  width: 100%;
+}
+.header img {
+  width: 100%;
+}
+.coltwo {
+  margin: 0vw auto 10vw;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.tab {
+  margin: 0vw auto;
+  display: block;
+  width: 81%;
+}
+.tab button {
+  border: 0vw;
+  background: transparent;
+}
+.tab img {
+  width: 100%;
+}
+.tab1 {
+  margin: 0vw auto;
+  display: block;
+  width: 100%;
+}
+.tab1 button {
+  border: 0vw;
+  background: transparent;
+}
+.tab1 img {
+  width: 100%;
+}
+.coltwo1 {
+  margin: 3vw auto;
+  width: 79%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.userRewardRound1 {
+  margin: 0vw auto;
+  width: 87%;
+  background-image: url(../img/eventRewards.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 69vw; */
+}
+.talentRewardRound1 {
+  margin: 0vw auto;
+  width: 87%;
+  background-image: url(../img/eventRewards.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 69vw; */
+}
+.eventTitle {
+  margin: 0vw auto;
+  width: 56%;
+  position: relative;
+  z-index: 2;
+  padding-top: 4vw;
+}
+.eventTitle img {
+  width: 100%;
+}
+.frame {
+  margin: 9vw auto;
+  width: 71%;
+  margin-bottom: 0vw;
+}
+.frame img {
+  width: 100%;
+}
+.eventText {
+  margin: 4vw auto;
+  width: 83%;
+  color: white;
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0vw;
+  padding-bottom: 1vw;
+}
+.schedule {
+  margin: 0vw auto;
+  width: 100%;
+}
+table {
+  margin: -7vw auto;
+  width: 89%;
+  padding: 0vw 0vw;
+}
+.userScheduleRound1 {
+  margin: 0vw auto;
+  width: 87%;
+  background-image: url(../img/redPart.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.eventTitle1 {
+  margin: 0vw auto;
+  width: 42%;
+  position: relative;
+  z-index: 2;
+  padding-top: 0vw;
+  display: block;
+}
+.eventTitle1 img {
+  width: 99%;
+}
+.scheduleTable {
+  margin: 0vw auto;
+  width: 90%;
+  padding-top: 0vw;
+  padding-bottom: 0vw;
+}
+table {
+  width: 100%;
+  text-align: center;
+  color: white;
+  border-collapse: collapse;
+  margin: 0vw auto;
+}
+th {
+  font-size: 4vw;
+}
+th img {
+  /* width: 65%; */
+}
+td {
+  font-size: 2.5vw;
+  padding-top: 0vw;
+  padding-bottom: 0vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+td img {
+  width: 74%;
+}
+body {
+  margin: 0vw auto;
+  width: 100%;
+  background-image: url(../img/bg.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header {
+  margin: 0vw auto;
+  width: 100%;
+}
+.header img {
+  width: 100%;
+}
+.coltwo {
+  margin: 0vw auto 13vw;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.tab {
+  margin: 0vw auto;
+  display: block;
+  width: 81%;
+}
+.tab button {
+  border: 0vw;
+  background: transparent;
+}
+.tab img {
+  width: 100%;
+}
+.tab1 {
+  margin: 0vw auto;
+  display: block;
+  width: 100%;
+}
+.tab1 button {
+  border: 0vw;
+  background: transparent;
+}
+.tab1 img {
+  width: 100%;
+}
+.coltwo1 {
+  margin: 6vw auto;
+  width: 79%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 4vw;
+}
+.userRewardRound1 {
+  margin: 0vw auto;
+  width: 87%;
+  background-image: url(../img/eventRewards.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 69vw; */
+}
+.talentRewardRound1 {
+  margin: 0vw auto;
+  width: 87%;
+  background-image: url(../img/eventRewards.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 69vw; */
+}
+.eventTitle {
+  margin: 0vw auto;
+  width: 56%;
+  position: relative;
+  z-index: 2;
+  padding-top: 6vw;
+}
+.eventTitle img {
+  width: 100%;
+}
+.frame {
+  margin: 14vw auto;
+  width: 71%;
+  margin-bottom: 0vw;
+}
+.frame img {
+  width: 100%;
+}
+.eventText {
+  margin: 9vw auto 0vw;
+  width: 83%;
+  color: white;
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+  line-height: 4vw;
+}
+.schedule {
+  margin: 8vw auto 0vw;
+  width: 100%;
+  padding-bottom: 0vw;
+}
+table {
+  margin: -7vw auto;
+  width: 89%;
+  padding: 0vw 0vw;
+}
+.userScheduleRound1 {
+  margin: 14vw auto 0vw;
+  width: 90%;
+  background-image: url(../img/redPart.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 98vw; */
+  padding: 1vw 2vw 8vw;
+}
+.eventTitle1 {
+  margin: -43vw -13vw 0vw;
+  width: 43%;
+  position: absolute;
+  z-index: 2;
+  padding-top: 0vw;
+}
+.eventTitle1 img {
+  width: 100%;
+}
+.scheduleTable {
+  margin: 0vw auto;
+  width: 94%;
+  padding-top: 0vw;
+  padding-bottom: 12vw;
+}
+table {
+  width: 100%;
+  /* text-align: center; */
+  color: white;
+  border-collapse: collapse;
+  margin: 3vw auto 0vw;
+}
+th {
+  font-size: 5vw;
+}
+th img {
+  /* width: 100%; */
+  height: 3vw;
+}
+td {
+  font-size: 2.3vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0vw;
+  padding-left: 0vw;
+  padding-right: 0vw;
+  width: 2vw;
+}
+td img {
+  width: 100%;
+}
+.pos {
+  margin: 0vw auto;
+  position: relative;
+  /* top: -1vw; */
+  background: #611522;
+}
+.bar {
+  margin: 0vw auto;
+  width: 100%;
+  background-image: url(../img/Borderline\ .png);
+  background-size: 101% 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1vw;
+  position: relative;
+  top: -5vw;
+}
+td {
+  text-align: center;
+  /* border-bottom: 1px solid #ddd; */
+}
+.r1 {
+  background-image: url(../img/leaderStrip.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.r2 {
+  border-top-left-radius: 1%;
+}
+.userleaderBoard {
+  margin: 0vw auto;
+  width: 91%;
+  background-image: url(../img/leaderBoardBg.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 184vw;
+}
+.tabFrame {
+  margin: -1vw auto;
+  width: 100%;
+  /* background-image: url(../img/leaderBoardBg.png); */
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 116vw; */
+  padding-top: 0vw;
+}
+.frames {
+  margin: 14vw auto 20vw;
+  width: 86%;
+  display: grid;
+  grid-template-columns: 31% 38% 31%;
+}
+.frames > td {
+  /* background-image: url(../img/leaderFrame.png); */
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 39vw; */
+  width: 100%;
+}
+.td1 {
+  margin: 3vw autp;
+  padding-top: 0vw;
+  height: 30vw;
+  position: relative;
+  top: 2vw;
+}
+.td2 {
+  margin: 0vw autp;
+  padding-top: 0vw;
+  height: 1vw;
+  padding-top: 0vw;
+  height: 36vw;
+  position: relative;
+  top: -4vw;
+}
+.td3 {
+  margin: 0vw autp;
+  padding-top: 0vw;
+  height: 1vw;
+  padding-top: 0vw;
+  height: 27vw;
+  position: relative;
+  top: 2vw;
+}
+.silverPro {
+  margin: -9vw auto -7vw;
+  width: 96%;
+  /* background-image: url(../img/Silever\ Profile\ Photo\ Frame.png); */
+  /* background-size: 100% 100%; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  height: 19vw;
+  position: relative;
+}
+.goldPro {
+  margin: -8vw auto -4vw;
+  width: 98%;
+  /* background-image: url(../img/Golden\ Profile\ \ Photo\ Frame.png); */
+  /* background-size: 100% 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20vw;
+}
+.bronzePro {
+  margin: -9vw auto -7vw;
+  width: 96%;
+  /* background-image: url(../img/Bronze\ Profile\ Frame.png); */
+  /* background-size: 100% 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 18vw;
+}
+
+.frameText {
+  margin: 11vw auto;
+  width: 100%;
+  font-size: small;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+}
+
+.frameText span{
+  text-align: center;
+  color: white;
+  background-color: #56171b;
+  padding: 0.8vw;
+  border-radius: 3vw;
+}
+
+.frameText img {
+  width: 11%;
+}
+.leaderBoardTitle {
+  margin: 0vw auto 0vw;
+  width: 70%;
+}
+.leaderBoardTitle img {
+  width: 100%;
+}
+.LeaderStrip {
+  display: grid;
+  grid-template-columns: 10% 14% 48% 27%;
+  width: 84%;
+  background: #56171b;
+  margin: 1vw auto 0vw;
+  grid-gap: 0vw;
+  /* background-image: url(../img/leaderStrip.png); */
+  /* background-size: 100% 50%; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* border-bottom: 2px solid rgb(12, 78, 103); */
+  /* background: rgb(255 255 255); */
+  padding: 0vw 2vw;
+  border-radius: 2vw;
+  font-size: 3vw;
+  position: relative;
+  top: -2vw;
+  color: white;
+}
+.lastDiv {
+  margin: 5vw auto;
+  width: 80%;
+}
+.centerDiv {
+  margin: 5vw auto;
+  width: 80%;
+  text-align: center;
+}
+.imgClass {
+  border-radius: 49%;
+  height: 10vw;
+  width: 100%;
+  vertical-align: middle;
+  border: 2px solid #cc3554;
+  padding: 0px;
+  margin: 2vw auto 0vw;
+}
+.imgsmal {
+  width: 10%;
+  vertical-align: middle;
+}
+.position {
+  margin: 6vw auto 0vw;
+}
+
+.colone {
+  margin: 0vw auto 0vw;
+  width: 44%;
+}
+.eventText1 {
+  margin: 0vw auto 0vw;
+  width: 83%;
+  color: white;
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: -13vw;
+  padding-bottom: 0vw;
+}
+.col-three {
+  margin: 0vw auto;
+  width: 84%;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.arrow {
+  /* margin: -6vw auto; */
+  width: 22%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 67vw;
+  padding-bottom: 0vw;
+  position: relative;
+  top: -37vw;
+}
+.arrow button {
+  border: 0vw;
+  background: transparent;
+}
+.arrowImg img {
+  width: 131%;
+}
+.rank {
+  margin: 6vw auto;
+  width: 15%;
+  margin-bottom: -7vw;
+}
+.rank img {
+  width: 100%;
+}
+.headerTxt {
+  margin: -7vw auto;
+  width: 64%;
+  z-index: 2;
+  margin-bottom: 1vw;
+}
+.headerTxt img {
+  width: 100%;
+}
+.guide-btn {
+  position: relative;
+  top: -5vw;
+  float: right;
+  z-index: 5;
+  width: 100%;
+  right: 0vw;
+}
+.guide-btn img {
+  width: 100%;
+}
+.guide-btn button {
+  border: 0vw;
+  background: transparent;
+  width: 24%;
+  float: right;
+  /* position: fixed; */
+  right: 0vw;
+  margin: 0vw -2vw 0vw;
+}
+.modal {
+  margin: 0vw auto;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0vw;
+  left: 0vw;
+  z-index: 6;
+  height: 100%;
+  overflow: scroll;
+}
+.guide-modal {
+  margin: 0vw auto;
+  width: 94%;
+  background-image: url(../img/guidlinebg.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 134vw;
+  padding-top: 10vw;
+}
+.rules {
+  margin: 0vw auto;
+  width: 90%;
+  text-align: justify;
+  color: white;
+  font-size: small;
+  /* padding-top: 2vw; */
+  /* padding-right: 5vw; */
+  overflow-y: scroll;
+  padding-bottom: 0vw;
+  height: 124vw;
+}
+.Talent_rewards {
+  margin: 0vw auto;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.guideTable {
+  margin: 0vw 0vw 0vw auto;
+  width: 90%;
+  border: 1px solid white;
+  text-align: center;
+  /* padding: 2vw auto; */
+  color: white;
+}
+.close {
+  margin: 0vw auto 0vw;
+  /* float: right; */
+}
+.close button {
+  border: 0vw;
+  background: transparent;
+  margin: auto;
+  display: block;
+}
+.close img {
+  width: 50%;
+}
+.guide-text {
+  margin: 0vw auto -10vw;
+  width: 70%;
+  position: relative;
+  z-index: 3;
+  padding-bottom: 0vw;
+  padding-top: 17vw;
+}
+.guide-text img {
+  width: 100%;
+}
+.modalTh{
+  
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+
+}
+.NoData{
+  margin: 0vw auto;
+  width: 100%;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.userleaderBoard1{
+  margin: 0vw auto;
+  width: 91%;
+  background-image: url(../img/leaderBoardBg.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 97vw;
+  text-align: center;
+  font-size: xx-large;
+}
+.contentSize{
+  width: 100%;
+  height: 99vw;
+  margin: -18vw auto;
+  overflow-y: scroll;
+}
+
+.leaderBoard{
+  margin: 0vw auto 10vw;
+}
+
+.guide-content {
+  display: grid;
+  grid-template-columns: 6% 88%;
+  grid-gap: 2vw;
+  justify-content: center;
+  margin: 2vw auto 0vw;
+}
+
+.guidecol-1{
+  width: 100%;
+}
+
+.guidecol-2{
+  width: 100%;
+  font-size: 4vw;
+  line-height: 5vw;
+}
+
+.modak{
+  width: 94%;
+  margin: 1vw auto;
+  display: block;
+}
+
+.reward-title {
+  text-align: center;
+  font-size: 6vw;
+  margin-bottom: 2vw;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
+
+
+#game-reward-table {
+  border-collapse: collapse;
+  min-width: 60vw;
+  margin: 3vw auto;
+  font-weight: bold;
+  text-align: center;
+  max-width: 85vw;
+  font-size: 4vw;
+  /* padding: 555555vw 0; */
+}
+
+#game-reward-table td,
+#game-reward-table th {
+  border: 1px solid #970a01;
+  padding: 2vw;
+  font-size: 3vw;
+}
+
+#game-reward-table tr {
+  background-color: #77402c;
+  color: white;
+}
+
+#game-reward-table th {
+  text-align: left;
+  background-color: #ef5b5a;
+  color: white;
+  text-align: center;
+}
+
+#footer {
+  font-size: 5vw;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  padding: 4vw 0;
+}
+
+.yellowCurtain{
+  width: 13%;
+  margin: -8vw -5vw -2vw;
+  background: url(../img/yellowCurtain.png);
+  background-size: 100% 100%;
+  position: absolute;
+  padding: 43vw;
+}
+
+.userbeanPot{
+  text-align: center;
+  color: white;
+  border: 5px solid #fae581;
+  width: 55%;
+  margin: 2vw auto 2vw;
+  border-radius: 5vw;
+  padding: 1vw 0vw;
+  font-weight: bold;
+  font-size: 5vw;
+}
+
+/* .scheduleTableTab{
+  margin: 0vw auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.scheduleTableTab button{
+  border: none;
+  background: transparent;
+  background: url('../img/selected-button.png') no-repeat center / 100% 100%;
+  padding: 1vw 3vw;
+  color: white;
+  font-size: 4vw;
+  font-weight: bold;
+} */
+
+.scheduleTableTab {
+  margin: 0vw auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.scheduleTableTab2 {
+  margin: 0vw auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.leaderBoardTableTab {
+  margin: 0vw auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.leaderBoardTableTab button {
+  border: none;
+  background: transparent;
+  background: url('../img/selected-button.png') no-repeat center / contain;
+  padding: 3vw 2vw; /* Adjust padding to fit text within the background */
+  color: white;
+  font-size: 3vw; /* Adjust font size to fit within the background */
+  font-weight: bold;
+  background-size: 100% 100%;
+  text-align: center;
+  /* white-space: nowrap; */
+  width: 30vw; /* Set width to ensure buttons are of equal size */
+  opacity: 0.5;
+}
+
+.scheduleTableTab2 button {
+  border: none;
+  background: transparent;
+  background: url('../img/selected-button.png') no-repeat center / contain;
+  padding: 3vw 2vw; /* Adjust padding to fit text within the background */
+  color: white;
+  font-size: 3vw; /* Adjust font size to fit within the background */
+  font-weight: bold;
+  background-size: 100% 100%;
+  text-align: center;
+  /* white-space: nowrap; */
+  width: 30vw; /* Set width to ensure buttons are of equal size */
+  opacity: 0.5;
+}
+
+.scheduleTableTab button {
+  border: none;
+  background: transparent;
+  background: url('../img/selected-button.png') no-repeat center / contain;
+  padding: 3vw 2vw; /* Adjust padding to fit text within the background */
+  color: white;
+  font-size: 3vw; /* Adjust font size to fit within the background */
+  font-weight: bold;
+  background-size: 100% 100%;
+  text-align: center;
+  /* white-space: nowrap; */
+  width: 30vw; /* Set width to ensure buttons are of equal size */
+  opacity: 0.5;
+}
+
+.active{
+  opacity: 1 !important;
+}
