@@ -488,7 +488,7 @@ td {
   border-radius: 2vw;
   font-size: 3vw;
   position: relative;
-  top: -2vw;
+  top: 2vw;
   color: white;
 }
 .lastDiv {
