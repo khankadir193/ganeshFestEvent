@@ -868,6 +868,7 @@ td {
   /* white-space: nowrap; */
   width: 30vw; /* Set width to ensure buttons are of equal size */
   opacity: 0.5;
+  font-size: 2.5vw;
 }
 
 .scheduleTableTab button {
