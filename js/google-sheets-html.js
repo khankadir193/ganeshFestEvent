@@ -104,7 +104,7 @@ var counter=0;
 
 var index1 = 0;
 // console.log(rowsStr);
-let counter1=3;
+let counter1=3 , counter2=3, counter3=3;
 rowsStr.forEach(rowsCount);
 // rows count
 function rowsCount(item){
@@ -123,14 +123,14 @@ else  if(counter>=5  &&  counter<16){
 
   counter1++;
 }else  if(counter>=16  &&  counter<22){
-  $('#conDivTalent2').append('<div class="LeaderStrip"><div class="position">'+(counter1)+'</div><div><a href="http://www.kktv1.com/m/?roomid='+id+'"><img src="../common/img/kk_head_avatar_men.png" id="u_img_'+id+'" alt="" class="imgClass" /></a></div><div class="lastDiv"><span class="dancing">'+times+'</span></div><div class="centerDiv"><img src="img/coin.png" class="imgsmal" />'+name+'</div></div>');
+  $('#conDivTalent2').append('<div class="LeaderStrip"><div class="position">'+(counter2)+'</div><div><a href="http://www.kktv1.com/m/?roomid='+id+'"><img src="../common/img/kk_head_avatar_men.png" id="u_img_'+id+'" alt="" class="imgClass" /></a></div><div class="lastDiv"><span class="dancing">'+times+'</span></div><div class="centerDiv"><img src="img/coin.png" class="imgsmal" />'+name+'</div></div>');
 
-  counter1++;
+  counter2++;
 }
 else  if(counter>=22  &&  counter<27){
-  $('#conDivTalent3').append('<div class="LeaderStrip"><div class="position">'+(counter1)+'</div><div><a href="http://www.kktv1.com/m/?roomid='+id+'"><img src="../common/img/kk_head_avatar_men.png" id="u_img_'+id+'" alt="" class="imgClass" /></a></div><div class="lastDiv"><span class="dancing">'+times+'</span></div><div class="centerDiv"><img src="img/coin.png" class="imgsmal" />'+name+'</div></div>');
+  $('#conDivTalent3').append('<div class="LeaderStrip"><div class="position">'+(counter3)+'</div><div><a href="http://www.kktv1.com/m/?roomid='+id+'"><img src="../common/img/kk_head_avatar_men.png" id="u_img_'+id+'" alt="" class="imgClass" /></a></div><div class="lastDiv"><span class="dancing">'+times+'</span></div><div class="centerDiv"><img src="img/coin.png" class="imgsmal" />'+name+'</div></div>');
 
-  counter1++;
+  counter3++;
 }
 
 //   else   if(counter>=28  &&  counter<=36){
