@@ -122,7 +122,7 @@ else  if(counter>=17  &&  counter<24){
   $('#conDivTalent').append('<div class="LeaderStrip"><div class="position">'+(counter1)+'</div><div><a href="http://www.kktv1.com/m/?roomid='+id+'"><img src="../common/img/kk_head_avatar_men.png" id="u_img_'+id+'" alt="" class="imgClass" /></a></div><div class="lastDiv"><span class="dancing">'+times+'</span></div><div class="centerDiv"><img src="img/coin.png" class="imgsmal" />'+name+'</div></div>');
 
   counter1++;
-}else  if(counter>=16  &&  counter<22){
+}else  if(counter>=24  &&  counter<25){
   $('#conDivTalent2').append('<div class="LeaderStrip"><div class="position">'+(counter2)+'</div><div><a href="http://www.kktv1.com/m/?roomid='+id+'"><img src="../common/img/kk_head_avatar_men.png" id="u_img_'+id+'" alt="" class="imgClass" /></a></div><div class="lastDiv"><span class="dancing">'+times+'</span></div><div class="centerDiv"><img src="img/coin.png" class="imgsmal" />'+name+'</div></div>');
 
   counter2++;
