@@ -346,7 +346,6 @@ td img {
 }
 td {
   text-align: center;
-  /* border-bottom: 1px solid #ddd; */
 }
 .r1 {
   background-image: url(../img/leaderStrip.png);
@@ -369,11 +368,9 @@ td {
 .tabFrame {
   margin: -1vw auto;
   width: 100%;
-  /* background-image: url(../img/leaderBoardBg.png); */
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  /* height: 116vw; */
   padding-top: 0vw;
 }
 .frames {
@@ -383,11 +380,9 @@ td {
   grid-template-columns: 31% 38% 31%;
 }
 .frames > td {
-  /* background-image: url(../img/leaderFrame.png); */
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  /* height: 39vw; */
   width: 100%;
 }
 .td1 {
@@ -418,18 +413,12 @@ td {
 .silverPro {
   margin: -9vw auto -7vw;
   width: 96%;
-  /* background-image: url(../img/Silever\ Profile\ Photo\ Frame.png); */
-  /* background-size: 100% 100%; */
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
   height: 19vw;
   position: relative;
 }
 .goldPro {
   margin: -8vw auto -4vw;
   width: 98%;
-  /* background-image: url(../img/Golden\ Profile\ \ Photo\ Frame.png); */
-  /* background-size: 100% 100%; */
   background-position: center;
   background-repeat: no-repeat;
   height: 20vw;
@@ -437,8 +426,6 @@ td {
 .bronzePro {
   margin: -9vw auto -7vw;
   width: 96%;
-  /* background-image: url(../img/Bronze\ Profile\ Frame.png); */
-  /* background-size: 100% 100%; */
   background-position: center;
   background-repeat: no-repeat;
   height: 18vw;
@@ -478,12 +465,6 @@ td {
   background: #56171b;
   margin: 1vw auto 0vw;
   grid-gap: 0vw;
-  /* background-image: url(../img/leaderStrip.png); */
-  /* background-size: 100% 50%; */
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  /* border-bottom: 2px solid rgb(12, 78, 103); */
-  /* background: rgb(255 255 255); */
   padding: 0vw 2vw;
   border-radius: 2vw;
   font-size: 3vw;
@@ -539,7 +520,6 @@ td {
 }
 
 .arrow {
-  /* margin: -6vw auto; */
   width: 22%;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -588,7 +568,6 @@ td {
   background: transparent;
   width: 24%;
   float: right;
-  /* position: fixed; */
   right: 0vw;
   margin: 0vw -2vw 0vw;
 }
@@ -619,8 +598,6 @@ td {
   text-align: justify;
   color: white;
   font-size: small;
-  /* padding-top: 2vw; */
-  /* padding-right: 5vw; */
   overflow-y: scroll;
   padding-bottom: 0vw;
   height: 124vw;
@@ -636,12 +613,10 @@ td {
   width: 90%;
   border: 1px solid white;
   text-align: center;
-  /* padding: 2vw auto; */
   color: white;
 }
 .close {
   margin: 0vw auto 0vw;
-  /* float: right; */
 }
 .close button {
   border: 0vw;
@@ -740,7 +715,6 @@ td {
   text-align: center;
   max-width: 85vw;
   font-size: 4vw;
-  /* padding: 555555vw 0; */
 }
 
 #game-reward-table td,
@@ -791,24 +765,6 @@ td {
   font-weight: bold;
   font-size: 5vw;
 }
-
-/* .scheduleTableTab{
-  margin: 0vw auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.scheduleTableTab button{
-  border: none;
-  background: transparent;
-  background: url('../img/selected-button.png') no-repeat center / 100% 100%;
-  padding: 1vw 3vw;
-  color: white;
-  font-size: 4vw;
-  font-weight: bold;
-} */
 
 .scheduleTableTab {
   margin: 0vw auto;
