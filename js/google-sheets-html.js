@@ -127,7 +127,7 @@ else  if(counter>=17  &&  counter<24){
 
   counter2++;
 }
-else  if(counter>=22  &&  counter<27){
+else  if(counter>=25  &&  counter<32){
   $('#conDivTalent3').append('<div class="LeaderStrip"><div class="position">'+(counter3)+'</div><div><a href="http://www.kktv1.com/m/?roomid='+id+'"><img src="../common/img/kk_head_avatar_men.png" id="u_img_'+id+'" alt="" class="imgClass" /></a></div><div class="lastDiv"><span class="dancing">'+times+'</span></div><div class="centerDiv"><img src="img/coin.png" class="imgsmal" />'+name+'</div></div>');
 
   counter3++;
