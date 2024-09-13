@@ -104,7 +104,7 @@ var counter=0;
 
 var index1 = 0;
 // console.log(rowsStr);
-let counter1=3 , counter2=3, counter3=3;
+let counterUser=4, counter1=4 , counter2=4, counter3=4;
 rowsStr.forEach(rowsCount);
 // rows count
 function rowsCount(item){
@@ -115,7 +115,9 @@ function rowsCount(item){
   
   if(counter>=0   &&  counter<17){
     console.log('in these');
-     $('#conDiv').append('<div class="LeaderStrip"><div class="position">'+(counter)+'</div><div><a href="http://www.kktv1.com/m/?roomid='+id+'"><img src="../common/img/kk_head_avatar_men.png" id="u_img_'+id+'" alt="" class="imgClass" /></a></div><div class="lastDiv"><span class="dancing">'+times+'</span></div><div class="centerDiv"><img src="img/coin.png" class="imgsmal" />'+name+'</div></div>');
+     $('#conDiv').append('<div class="LeaderStrip"><div class="position">'+(counterUser)+'</div><div><a href="http://www.kktv1.com/m/?roomid='+id+'"><img src="../common/img/kk_head_avatar_men.png" id="u_img_'+id+'" alt="" class="imgClass" /></a></div><div class="lastDiv"><span class="dancing">'+times+'</span></div><div class="centerDiv"><img src="img/coin.png" class="imgsmal" />'+name+'</div></div>');
+
+     counterUser++;
 
   }
 else  if(counter>=17  &&  counter<24){
