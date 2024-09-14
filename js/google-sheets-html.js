@@ -103,10 +103,8 @@ var category='';
 var counter=0;
 
 var index1 = 0;
-// console.log(rowsStr);
 let counterUser=4, counter1=4 , counter2=4, counter3=4;
 rowsStr.forEach(rowsCount);
-// rows count
 function rowsCount(item){
   dataList = item.c;
  
